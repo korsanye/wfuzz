@@ -1,0 +1,1 @@
+wfuzz -w fuzz.txt --hc 400,404,403,301,302,307 https://www.target.com/FUZZ
